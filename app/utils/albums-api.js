@@ -1,3 +1,4 @@
+/* eslint-disable import/prefer-default-export */
 import axios from 'axios';
 
 const BASE_URL = 'http://jsonplaceholder.typicode.com';
