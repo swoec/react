@@ -7,7 +7,7 @@
 6 silly lifecycle react-example@1.0.0~predev: no script for predev, continuing
 7 info lifecycle react-example@1.0.0~dev: react-example@1.0.0
 8 verbose lifecycle react-example@1.0.0~dev: unsafe-perm in lifecycle true
-9 verbose lifecycle react-example@1.0.0~dev: PATH: /usr/share/npm/bin/node-gyp-bin:/home/alex/workspace/react-example/node_modules/.bin:/home/alex/.pyenv/plugins/pyenv-virtualenv/shims:/home/alex/.pyenv/shims:/home/alex/.pyenv/bin:/home/alex/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin
+9 verbose lifecycle react-example@1.0.0~dev: PATH: /usr/share/npm/bin/node-gyp-bin:/home/alex/workspace/react-example/node_modules/.bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin
 10 verbose lifecycle react-example@1.0.0~dev: CWD: /home/alex/workspace/react-example
 11 silly lifecycle react-example@1.0.0~dev: Args: [ '-c',
 11 silly lifecycle   'webpack-dev-server --inline --content-base ./ --env.dev' ]

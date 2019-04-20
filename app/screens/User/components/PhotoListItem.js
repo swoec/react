@@ -8,9 +8,9 @@ function PhotoListItem({photos}) {
     // console.log(photos.title)
     return (
       <li className="border-bottom">
-        <div className="pull-right">
+        <div className="pull-left">
           <a href={photos.url}>
-            <img src={photos.thumbnailUrl} width="42" height="46" title={photos.title} alt="" /></a>
+            <img src={photos.thumbnailUrl} width="42" height="46" title={photos.title} alt="" />{photos.title}</a>
 
         </div>
       </li>
