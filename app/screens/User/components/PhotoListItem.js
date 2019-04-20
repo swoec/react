@@ -6,13 +6,8 @@ export default PhotoListItem;
 
 function PhotoListItem({photos}) {
     return (
-
-
       <a href={photos.url}>
         <img src={photos.thumbnailUrl} width="42" height="46" title={photos.title} alt="" /></a>
-
-
-
     );
 }
 
