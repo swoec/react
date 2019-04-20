@@ -23,7 +23,9 @@ export default class PhotoList extends Component {
         const {photos} = this.state;
         return (
           <ul className="list-unstyled">
-            {renderPhotos(photos)}
+            <li className="border-bottom">
+              {renderPhotos(photos)}
+            </li>
           </ul>
         );
     }
