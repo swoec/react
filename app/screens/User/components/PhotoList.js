@@ -1,5 +1,5 @@
 import React, {Component, PropTypes} from 'react';
-import AlbumListItem from './PhotoListItem';
+import PhotoListItem from './PhotoListItem';
 import {getPhotos} from '../../../utils/photos-api'
 
 export default class PhotoList extends Component {
@@ -21,6 +21,7 @@ export default class PhotoList extends Component {
 
     render() {
         const {photos} = this.state;
+        // console.log(photos)
 
         return (
           <ul className="list-unstyled">
@@ -32,12 +33,12 @@ export default class PhotoList extends Component {
 
 PhotoList.propTypes = {
 
-    albumId: PropTypes.string.isRequired,
+    albumId: PropTypes.number.isRequired,
     getPhotos: PropTypes.func,
 };
 PhotoList.defaultProps = {getPhotos};
 
 function renderPhotos(photos) {
     return photos
-        .map(photo => <AlbumListItem key={photo.id} album={photo} />);
+        .map(photo => <PhotoListItem key={photo.id} photo={photo} />);
 }

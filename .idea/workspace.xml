@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e663445-d300-4186-a118-c550406fc4fc" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/screens/Home/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/screens/Home/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/screens/User/components/AlbumListItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/screens/User/components/AlbumListItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/screens/User/components/AlbumListItem.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/screens/User/components/PhotoList.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/screens/User/components/PhotoList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/screens/User/components/PhotoListItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/screens/User/components/PhotoListItem.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/screens/User/components/User.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/screens/User/components/User.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/npm-debug.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/utils/photos-api.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/utils/photos-api.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/build/" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -20,22 +26,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/screens/Home/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="270">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/screens/User/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="34" column="12" lean-forward="true" selection-start-line="22" selection-start-column="6" selection-end-line="34" selection-end-column="12" />
-              <folding>
-                <element signature="e#0#50#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -50,11 +44,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/screens/User/components/PhotoList.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+            <state relative-caret-position="409">
+              <caret line="31" column="1" lean-forward="true" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
               <folding>
                 <element signature="e#0#50#0" expanded="true" />
               </folding>
@@ -63,13 +57,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/screens/User/components/AlbumList.test.js">
+        <entry file="file://$PROJECT_DIR$/app/utils/photos-api.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="17" column="42" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="42" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="120">
+              <caret line="8" column="23" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -77,8 +68,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/screens/User/components/PhotoListItem.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+            <state relative-caret-position="-2">
+              <caret line="7" column="32" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -86,8 +77,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/screens/User/components/AlbumListItem.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+            <state relative-caret-position="-122">
+              <caret line="53" column="49" selection-start-line="53" selection-start-column="49" selection-end-line="53" selection-end-column="49" />
+              <folding>
+                <element signature="e#0#50#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -95,8 +89,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/screens/User/components/AlbumList.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+            <state relative-caret-position="465">
+              <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
               <folding>
                 <element signature="e#0#50#0" expanded="true" />
               </folding>
@@ -107,8 +101,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/screens/User/components/User.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="103">
-              <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+            <state relative-caret-position="223">
+              <caret line="32" selection-start-line="32" selection-end-line="32" />
               <folding>
                 <element signature="e#0#50#0" expanded="true" />
               </folding>
@@ -116,7 +110,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/screens/User/components/UserList.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="148">
@@ -153,16 +147,13 @@
         <option value="$PROJECT_DIR$/app/screens/User/components/AlbumListItem.test.js" />
         <option value="$PROJECT_DIR$/app/utils/albums-api.test.js" />
         <option value="$PROJECT_DIR$/app/utils/github-api.js" />
-        <option value="$PROJECT_DIR$/app/utils/photos-api.js" />
         <option value="$PROJECT_DIR$/app/utils/photos-api.stub.js" />
         <option value="$PROJECT_DIR$/app/utils/photos-api.test.js" />
         <option value="$PROJECT_DIR$/app/screens/User/components/PhotoList.test.js" />
         <option value="$PROJECT_DIR$/app/screens/User/components/PhotoListItem.test.js" />
         <option value="$PROJECT_DIR$/app/utils/albums-api.js" />
-        <option value="$PROJECT_DIR$/app/screens/User/components/PhotoListItem.js" />
         <option value="$PROJECT_DIR$/app/utils/user.stub.js" />
         <option value="$PROJECT_DIR$/app/utils/user.test.js" />
-        <option value="$PROJECT_DIR$/app/screens/User/components/AlbumList.js" />
         <option value="$PROJECT_DIR$/.babelrc" />
         <option value="$PROJECT_DIR$/webpack.config.js" />
         <option value="$PROJECT_DIR$/index.js" />
@@ -172,12 +163,15 @@
         <option value="$PROJECT_DIR$/app/utils/user-api.stub.js" />
         <option value="$PROJECT_DIR$/app/utils/user-api.js" />
         <option value="$PROJECT_DIR$/app/screens/User/index.js" />
-        <option value="$PROJECT_DIR$/app/screens/User/components/AlbumListItem.js" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/app/screens/User/components/UserList.js" />
         <option value="$PROJECT_DIR$/app/screens/Home/index.js" />
         <option value="$PROJECT_DIR$/app/screens/User/components/User.js" />
+        <option value="$PROJECT_DIR$/app/screens/User/components/AlbumList.js" />
+        <option value="$PROJECT_DIR$/app/screens/User/components/AlbumListItem.js" />
         <option value="$PROJECT_DIR$/app/screens/User/components/PhotoList.js" />
-        <option value="$PROJECT_DIR$/app/screens/User/components/UserList.js" />
+        <option value="$PROJECT_DIR$/app/screens/User/components/PhotoListItem.js" />
+        <option value="$PROJECT_DIR$/app/utils/photos-api.js" />
       </list>
     </option>
   </component>
@@ -283,6 +277,16 @@
     </option>
   </component>
   <component name="RunManager" selected="Mocha.UserList.should invoke the getUser method ">
+    <configuration default="true" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="UserList.should invoke the getUser method " type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
       <node-interpreter>project</node-interpreter>
       <node-options />
@@ -327,6 +331,11 @@
       <test-file>$PROJECT_DIR$/app/screens/User/components/PhotoList.test.js</test-file>
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Mocha.app/screens/User/components/PhotoList.test.js" />
+      <item itemvalue="Mocha.UserList.should invoke the getUser method " />
+      <item itemvalue="Mocha.UserList.should list the Users" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Mocha.UserList.should invoke the getUser method " />
@@ -346,7 +355,7 @@
       <option name="presentableId" value="Default" />
       <updated>1555566971781</updated>
       <workItem from="1555566973708" duration="574000" />
-      <workItem from="1555631744911" duration="55586000" />
+      <workItem from="1555631744911" duration="62551000" />
     </task>
     <servers />
   </component>
@@ -363,21 +372,23 @@
     <history-entry file="UserList_should_invoke_the_getUser_method_ - 2019.04.20 at 14h 37m 02s.xml">
       <configuration name="UserList.should invoke the getUser method " configurationId="mocha-javascript-test-runner" />
     </history-entry>
+    <history-entry file="UserList_should_invoke_the_getUser_method_ - 2019.04.20 at 19h 59m 16s.xml">
+      <configuration name="UserList.should invoke the getUser method " configurationId="mocha-javascript-test-runner" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56160000" />
+    <option name="totallyTimeSpent" value="63125000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1533" height="875" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2781457" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2781457" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3297587" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3297587" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3297587" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3994638" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -486,17 +497,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/screens/User/components/ProfileStat.js">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/screens/User/components/AlbumListItem.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#25#51#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/utils/github-api.stub.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -608,13 +608,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/utils/photos-api.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="9" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/utils/photos-api.stub.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
@@ -718,29 +711,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/screens/User/components/PhotoListItem.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/screens/User/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="34" column="12" lean-forward="true" selection-start-line="22" selection-start-column="6" selection-end-line="34" selection-end-column="12" />
           <folding>
             <element signature="e#0#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/screens/Home/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -755,13 +731,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/screens/User/components/AlbumListItem.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/screens/User/components/UserListItem.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -769,40 +738,85 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/screens/User/components/AlbumList.js">
+    <entry file="file://$PROJECT_DIR$/app/screens/User/components/UserList.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        <state relative-caret-position="148">
+          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
           <folding>
             <element signature="e#0#50#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/screens/User/components/PhotoList.js">
+    <entry file="file://$PROJECT_DIR$/app/screens/Home/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+        <state relative-caret-position="270">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/screens/User/components/AlbumList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
           <folding>
             <element signature="e#0#50#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/screens/User/components/AlbumListItem.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-122">
+          <caret line="53" column="49" selection-start-line="53" selection-start-column="49" selection-end-line="53" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/screens/User/components/AlbumListItem.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#25#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/screens/User/components/PhotoListItem.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2">
+          <caret line="7" column="32" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/screens/User/components/User.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+        <state relative-caret-position="223">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
           <folding>
             <element signature="e#0#50#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/screens/User/components/UserList.js">
+    <entry file="file://$PROJECT_DIR$/app/utils/photos-api.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+        <state relative-caret-position="120">
+          <caret line="8" column="23" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/screens/User/components/PhotoList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="31" column="1" lean-forward="true" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
           <folding>
             <element signature="e#0#50#0" expanded="true" />
           </folding>

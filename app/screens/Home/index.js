@@ -11,17 +11,17 @@ export default class Home extends Component {
 
   render() {
     return (
-        <div className="container">
-          <div className="row">
+      <div className="container">
+        <div className="row">
 
-            <div className="col-sm-9">
+          <div className="col-sm-9">
 
 
-              <AlbumList />
+            <AlbumList />
 
-            </div>
           </div>
         </div>
+      </div>
     );
   }
 }

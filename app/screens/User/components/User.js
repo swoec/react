@@ -22,16 +22,16 @@ export default class User extends Component {
 
     render() {
         const {user} = this.state;
-        console.log(user.name)
+        // console.log(user.name)
 
         return (
-          <div>
 
 
-            <strong>{user.name}</strong>
+
+          <strong>{user.name}</strong>
 
 
-          </div>
+
         );
     }
 }

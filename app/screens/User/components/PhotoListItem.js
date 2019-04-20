@@ -5,6 +5,7 @@ export default PhotoListItem;
 
 
 function PhotoListItem({photos}) {
+    // console.log(photos.title)
     return (
       <li className="border-bottom">
         <div className="pull-right">

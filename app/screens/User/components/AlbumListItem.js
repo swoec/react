@@ -1,44 +1,69 @@
-import React, {PropTypes} from 'react';
+import React, {Component, PropTypes} from 'react';
 
-// import {getUser} from "../../../utils/user-api";
-// import UserList from './UserList';
 import User from './User';
-// import PhotoList from './PhotoList'
 
-export default AlbumListItem;
+import PhotoList from './PhotoList'
+// import AlbumList from "./AlbumList";
 
-// const request = require('request');
 
-function AlbumListItem({album}) {
 
-        // const user = getUser(album.userId);
+export default class AlbumListItem extends Component {
 
-        // let list = {};
-        // list = user;
-        //
-        // console.log(list)
+    constructor() {
 
-        // handleClick(){
-        //     return (
-        //         <li className="border-bottom">
-        //             <div className="pull-left">
-        //
-        //                 <PhotoList albumId={album.id}/>
-        //
-        //             </div>
-        //         </li>
-        //     );
-        // }
+        super()
+
+        this.state = {display:false}
+
+    }
+
+
+
+    togglePhotolist=()=>{
+
+        if(this.state.diplay){
+
+            this.setState({display: false});
+
+        }else{
+
+            this.setState({display: true});
+
+        }
+
+    }
+
+
+
+    render() {
+
+        const {album} = this.props
+
+
 
         return (
+
           <li className="border-bottom">
+
             <div className="pull-left">
-              <a href="">{album.title}</a>
+
+              <button onClick={this.togglePhotolist}>{album.title}</button>
+
+              {this.state.display && <PhotoList albumId={album.id} />}
+
+              {/*<a href="">{album.title}</a >*/}
+
               {/*<PhotoList albumId={album.id}*/}
+
               <User userid={album.userId} />
+
             </div>
+
           </li>
+
         );
+
+    }
 
 
 
@@ -49,11 +74,13 @@ AlbumListItem.propTypes = {
         id: PropTypes.number,
         title: PropTypes.string,
         userId: PropTypes.number,
+        onClick: PropTypes.func
         // handleClick :PropTypes.func,
     }),
 };
 
 AlbumListItem.defaultProps = {
-    album: {},
+    albumsItem: {},
+
     // handleClick :PropTypes.func,
 };
