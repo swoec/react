@@ -15,14 +15,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mzabriskie/react-example"
+    "url": "https://github.com/swoec/react"
   },
   "author": "Matt Zabriskie",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mzabriskie/react-example/issues"
+    "url": "https://github.com/swoec/react-example/issues"
   },
-  "homepage": "https://github.com/mzabriskie/react-example",
+  "homepage": "https://github.com/swoec/react",
   "dependencies": {
     "axios": "0.13.1",
     "babel-plugin-transform-regenerator": "^6.26.0",
