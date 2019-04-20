@@ -5,6 +5,10 @@ import {getPhotos, getMockPhotos} from '../../../utils/photos-api.stub';
 import PhotoList from './PhotoList';
 
 describe('PhotoList', () => {
+    it('should render no photo by default', () => {
+        const wrapper = mountComponent();
+        expect(wrapper.find('li')).to.have.length(0);
+    });
 
     it('should invoke the getPhotos method ', () => {
         const getReposSpy = getGetPhotoSpy();

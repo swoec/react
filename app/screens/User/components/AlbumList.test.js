@@ -5,6 +5,10 @@ import {getAlbums, getMockAlbums} from '../../../utils/albums-api.stub';
 import AlbumList from './AlbumList';
 
 describe('AlbumList', () => {
+    it('should render no albums by default', () => {
+        const wrapper = mountComponent();
+        expect(wrapper.find('li')).to.have.length(0);
+    });
 
     it('should invoke the getAlbums method ', () => {
         const getReposSpy = getGetAlbumSpy();
