@@ -11,7 +11,7 @@ export default class User extends Component {
     getUser() {
         const {userid} = this.props
         getUser(userid)
-            .then(({user}) => {
+            .then((user) => {
                 this.setState({user});
             });
     }
@@ -22,7 +22,8 @@ export default class User extends Component {
 
     render() {
         const {user} = this.state;
-        console.log(user)
+        console.log(user.name)
+
         return (
           <div>
 
