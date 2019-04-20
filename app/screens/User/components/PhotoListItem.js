@@ -10,7 +10,7 @@ function PhotoListItem({photos}) {
       <li className="border-bottom">
         <div className="pull-right">
           <a href={photos.url}>
-            <img src={photos.thumbnailUrl} width="82" height="86" title={photos.title} alt="" /></a>
+            <img src={photos.thumbnailUrl} width="42" height="46" title={photos.title} alt="" /></a>
 
         </div>
       </li>

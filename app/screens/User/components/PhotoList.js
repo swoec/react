@@ -40,5 +40,5 @@ PhotoList.defaultProps = {getPhotos};
 
 function renderPhotos(photos) {
     return photos
-        .map(photo => <PhotoListItem key={photo.id} photo={photo} />);
+        .map(photo => <PhotoListItem key={photo.id} photos={photo} />);
 }
