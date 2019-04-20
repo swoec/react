@@ -8,7 +8,7 @@ function PhotoListItem({photos}) {
     // console.log(photos.title)
     return (
       <li className="border-bottom">
-        <div className="pull-left">
+        <div>
           <a href={photos.url}>
             <img src={photos.thumbnailUrl} width="42" height="46" title={photos.title} alt="" />{photos.title}</a>
 

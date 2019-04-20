@@ -1,5 +1,6 @@
 import React, {Component, PropTypes} from 'react';
 
+
 import User from './User';
 
 import PhotoList from './PhotoList'
@@ -45,9 +46,12 @@ export default class AlbumListItem extends Component {
 
           <li className="border-bottom">
 
-            <div className="pull-left">
+            <div>
+
 
               <button onClick={this.togglePhotolist}>{album.title}</button>
+              <User userid={album.userId} />
+
 
               {this.state.display && <PhotoList albumId={album.id} />}
 
@@ -55,7 +59,7 @@ export default class AlbumListItem extends Component {
 
               {/*<PhotoList albumId={album.id}*/}
 
-              <User userid={album.userId} />
+
 
             </div>
 
