@@ -1,5 +1,8 @@
 import React, {Component} from 'react';
 
+import AlbumList from '../User/components/AlbumList'
+
+
 export default class Home extends Component {
   handleSubmit = (e) => {
     e.preventDefault();
@@ -8,27 +11,17 @@ export default class Home extends Component {
 
   render() {
     return (
-      <section className="container home">
-        <form
-          className="form-inline"
-          role="form"
-          onSubmit={this.handleSubmit}
-        >
-          <div className="form-group">
-            <div className="input-group">
-              <input
-                type="text"
-                placeholder="Enter a GitHub user..."
-                className="form-control"
-                ref={ref => (this._input = ref)}
-              />
+        <div className="container">
+          <div className="row">
+
+            <div className="col-sm-9">
+
+
+              <AlbumList />
+
             </div>
           </div>
-          <button type="submit" className="btn btn-primary">
-            Go
-          </button>
-        </form>
-      </section>
+        </div>
     );
   }
 }
