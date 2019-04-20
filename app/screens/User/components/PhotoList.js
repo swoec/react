@@ -1,0 +1,43 @@
+import React, {Component, PropTypes} from 'react';
+import AlbumListItem from './PhotoListItem';
+import {getPhotos} from '../../../utils/photos-api'
+
+export default class PhotoList extends Component {
+    constructor() {
+        super()
+        this.state = {photos: []}
+    }
+
+    getPhotos() {
+        const {albumId} = this.props;
+        this.props.getPhotos(albumId).then(photos => {
+            this.setState({photos});
+        });
+    }
+
+    componentWillMount() {
+        this.getPhotos();
+    }
+
+    render() {
+        const {photos} = this.state;
+
+        return (
+          <ul className="list-unstyled">
+            {renderPhotos(photos)}
+          </ul>
+        );
+    }
+}
+
+PhotoList.propTypes = {
+
+    albumId: PropTypes.string.isRequired,
+    getPhotos: PropTypes.func,
+};
+PhotoList.defaultProps = {getPhotos};
+
+function renderPhotos(photos) {
+    return photos
+        .map(photo => <AlbumListItem key={photo.id} album={photo} />);
+}

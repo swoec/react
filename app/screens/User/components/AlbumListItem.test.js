@@ -1,0 +1,15 @@
+/* eslint camelcase:0 */
+import React from 'react';
+import {render} from 'enzyme';
+import {getMockAlbum} from '../../../utils/albums-api.stub';
+import AlbumListItem from './AlbumListItem';
+
+describe('AlbumListItem', () => {
+    it('should get the items', () => {
+
+        const album = getMockAlbum();
+        const wrapper = render(<AlbumListItem repo={album} />);
+        const timeEl = wrapper.find('li');
+        expect(timeEl).to.not.equal(null);
+    });
+});
