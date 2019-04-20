@@ -1,5 +1,5 @@
 {
-  "name": "react-example",
+  "name": "react",
   "version": "1.0.0",
   "description": "Simple React example app",
   "main": "index.js",
@@ -17,7 +17,7 @@
     "type": "git",
     "url": "https://github.com/swoec/react"
   },
-  "author": "Matt Zabriskie",
+  "author": "Alex Wang",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/swoec/react-example/issues"

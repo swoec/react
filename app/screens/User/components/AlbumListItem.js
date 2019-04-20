@@ -2,9 +2,6 @@ import React, {Component, PropTypes} from 'react';
 import User from './User';
 import PhotoList from './PhotoList'
 
-
-
-
 export default class AlbumListItem extends Component {
     constructor() {
         super()
