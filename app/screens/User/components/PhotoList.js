@@ -21,8 +21,6 @@ export default class PhotoList extends Component {
 
     render() {
         const {photos} = this.state;
-        // console.log(photos)
-
         return (
           <ul className="list-unstyled">
             {renderPhotos(photos)}

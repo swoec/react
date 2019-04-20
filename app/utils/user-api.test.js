@@ -3,11 +3,6 @@ import {spy} from 'sinon';
 import {getUser} from './user-api';
 import {getMockUser} from './user-api.stub';
 
-
-// import _ from "lodash";
-//
-// const request = require('request');
-
 describe('User API', () => {
 
     beforeEach(() => {
@@ -17,7 +12,6 @@ describe('User API', () => {
     afterEach(() => {
         moxios.uninstall();
     });
-
 
     describe('getUsers', () => {
         it('should make a request to the proper url', done => {

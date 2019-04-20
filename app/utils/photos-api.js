@@ -6,6 +6,5 @@ export {getPhotos};
 
 function getPhotos(album) {
     const url = `${BASE_URL}${album}`;
-    // console.log(url)
     return axios.get(url).then(response => response.data);
 }

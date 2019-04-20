@@ -22,16 +22,8 @@ export default class User extends Component {
 
     render() {
         const {user} = this.state;
-        // console.log(user.name)
-
         return (
-
-
-
           <strong>{user.name}</strong>
-
-
-
         );
     }
 }

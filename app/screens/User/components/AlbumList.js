@@ -22,7 +22,6 @@ export default class AlbumList extends Component {
 
     render() {
         const {albums} = this.state
-
         return (
           <ul className="list-unstyled">
             {renderAlbums(albums)}
@@ -32,13 +31,11 @@ export default class AlbumList extends Component {
 }
 
 AlbumList.propTypes = {
-
     getAlbums: PropTypes.func,
 };
 AlbumList.defaultProps = {getAlbums}
 
 function renderAlbums(albums) {
-    // console.log(albums)
     return albums
         .map(album => <AlbumListItem key={album.id} album={album} />);
 }

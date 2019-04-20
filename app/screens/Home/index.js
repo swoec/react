@@ -13,12 +13,8 @@ export default class Home extends Component {
     return (
       <div className="container">
         <div className="row">
-
           <div className="col-sm-9">
-
-
             <AlbumList />
-
           </div>
         </div>
       </div>

@@ -2,8 +2,6 @@
 import _ from 'lodash';
 import {random as randomStarWarsName} from 'starwars-names';
 
-
-
 export {getUsers, getMockUsers, getMockUser};
 
 function getUsers() {
