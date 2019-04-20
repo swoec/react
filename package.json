@@ -20,7 +20,7 @@
   "author": "Alex Wang",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/swoec/react-example/issues"
+    "url": "https://github.com/swoec/react/issues"
   },
   "homepage": "https://github.com/swoec/react",
   "dependencies": {
