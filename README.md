@@ -11,7 +11,7 @@ To run the app locally:
 
 ```bash
 git clone https://github.com/swoec/react.git
-cd react-example
+cd react
 npm run setup
 npm run dev
 open http://localhost:8080
