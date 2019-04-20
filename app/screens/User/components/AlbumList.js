@@ -36,6 +36,5 @@ AlbumList.propTypes = {
 AlbumList.defaultProps = {getAlbums}
 
 function renderAlbums(albums) {
-    return albums
-        .map(album => <AlbumListItem key={album.id} album={album} />);
+    return albums.map(album => <AlbumListItem key={album.id} album={album} />);
 }

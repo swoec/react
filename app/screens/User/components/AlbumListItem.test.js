@@ -12,4 +12,12 @@ describe('AlbumListItem', () => {
         const timeEl = wrapper.find('li');
         expect(timeEl).to.not.equal(null);
     });
+
+    it('should display the items', () => {
+
+        const album = getMockAlbum();
+        const wrapper = render(<AlbumListItem display={false} album={album} />);
+        const timeEl = wrapper.find('li');
+        expect(timeEl).to.not.equal(null);
+    });
 });

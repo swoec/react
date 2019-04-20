@@ -37,6 +37,5 @@ PhotoList.propTypes = {
 PhotoList.defaultProps = {getPhotos};
 
 function renderPhotos(photos) {
-    return photos
-        .map(photo => <PhotoListItem key={photo.id} photos={photo} />);
+    return photos.map(photo => <PhotoListItem key={photo.id} photos={photo} />);
 }
