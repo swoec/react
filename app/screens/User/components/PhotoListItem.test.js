@@ -9,7 +9,7 @@ describe('PhotoListItem', () => {
 
         const photos = getMockPhoto();
         const wrapper = render(<PhotoListItem repo={photos} />);
-        const timeEl = wrapper.find('li');
+        const timeEl = wrapper.find('a');
         expect(timeEl).to.not.equal(null);
     });
 });

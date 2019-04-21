@@ -7,7 +7,7 @@ import PhotoList from './PhotoList';
 describe('PhotoList', () => {
     it('should render no photo by default', () => {
         const wrapper = mountComponent();
-        expect(wrapper.find('li')).to.have.length(0);
+        expect(wrapper.find('a')).to.have.length(0);
     });
 
     it('should invoke the getPhotos method ', () => {
@@ -22,7 +22,7 @@ describe('PhotoList', () => {
         const getPhotoSpy = getGetPhotoSpy(getMockPhotos(totalPhotos));
         const wrapper = mountComponent({getPhotos: getPhotoSpy});
         setTimeout(() => {
-            expect(wrapper.find('li')).to.have.length(totalPhotos);
+            expect(wrapper.find('a')).to.have.length(totalPhotos);
             done();
         });
     });
