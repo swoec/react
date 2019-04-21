@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e663445-d300-4186-a118-c550406fc4fc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/screens/User/components/AlbumListItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/screens/User/components/AlbumListItem.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/screens/User/components/AlbumListItem.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/screens/User/components/AlbumListItem.test.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/build/" />
@@ -51,7 +49,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/screens/User/components/AlbumListItem.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
@@ -63,11 +61,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/screens/User/components/AlbumListItem.test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
-              <caret line="37" column="15" lean-forward="true" selection-start-line="37" selection-start-column="15" selection-end-line="37" selection-end-column="15" />
+            <state relative-caret-position="255">
+              <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
               <folding>
                 <element signature="e#25#51#0" expanded="true" />
               </folding>
@@ -140,8 +138,8 @@
         <option value="$PROJECT_DIR$/app/screens/User/components/PhotoList.test.js" />
         <option value="$PROJECT_DIR$/app/screens/User/components/AlbumList.test.js" />
         <option value="$PROJECT_DIR$/app/utils/user-api.test.js" />
-        <option value="$PROJECT_DIR$/app/screens/User/components/AlbumListItem.test.js" />
         <option value="$PROJECT_DIR$/app/screens/User/components/AlbumListItem.js" />
+        <option value="$PROJECT_DIR$/app/screens/User/components/AlbumListItem.test.js" />
       </list>
     </option>
   </component>
@@ -348,7 +346,7 @@
       <option name="presentableId" value="Default" />
       <updated>1555566971781</updated>
       <workItem from="1555566973708" duration="574000" />
-      <workItem from="1555631744911" duration="90058000" />
+      <workItem from="1555631744911" duration="90896000" />
     </task>
     <servers />
   </component>
@@ -373,7 +371,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90632000" />
+    <option name="totallyTimeSpent" value="91470000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1533" height="875" extended-state="6" />
@@ -817,22 +815,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/screens/User/components/AlbumListItem.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="37" column="15" lean-forward="true" selection-start-line="37" selection-start-column="15" selection-end-line="37" selection-end-column="15" />
-          <folding>
-            <element signature="e#25#51#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/screens/User/components/AlbumListItem.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
           <folding>
             <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/screens/User/components/AlbumListItem.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+          <folding>
+            <element signature="e#25#51#0" expanded="true" />
           </folding>
         </state>
       </provider>

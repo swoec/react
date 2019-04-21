@@ -15,15 +15,7 @@ describe('AlbumListItem', () => {
         expect(timeEl).to.not.equal(null);
     });
 
-    it('should display the items', () => {
-
-        const album = getMockAlbum();
-        const wrapper = render(<AlbumListItem display={false} album={album} />);
-        const timeEl = wrapper.find('li');
-        expect(timeEl).to.not.equal(null);
-    });
-
-    it('should click the items', done => {
+    it('should click the button', done => {
         const album = getMockAlbum();
         const wrapper = mount(<AlbumListItem album={album} />);
         const instance = wrapper.instance();
