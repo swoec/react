@@ -9,7 +9,7 @@ export default class AlbumListItem extends Component {
     }
 
     togglePhotolist=()=>{
-        if(this.state.diplay){
+        if(this.state.display){
             this.setState({display: false});
         }else{
             this.setState({display: true});
