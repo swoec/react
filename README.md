@@ -1,6 +1,9 @@
 # react-example
 
 React example app that demonstrates using [React] with [webpack], and [babeljs], as well as project structure.
+Test Framework:mocha
+Assert:chai
+S
 
 Requirements:
 - git
