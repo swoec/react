@@ -1,8 +1,8 @@
 # react-example
 
-React example app that demonstrates using [React] with [webpack], and [babeljs], as well as project structure./br
-Test Framework:mocha/br
-Assert:chai/br
+React example app that demonstrates using [React] with [webpack], and [babeljs], as well as project structure./n
+Test Framework:mocha/n
+Assert:chai/n
 Spy:sinon
 
 Requirements:
