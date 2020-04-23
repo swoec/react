@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/swoec/react",
   "dependencies": {
-    "axios": "0.13.1",
+    "axios": "0.19.2",
     "babel-plugin-transform-regenerator": "^6.26.0",
     "bootstrap": "^3.3.5",
     "history": "^3.0.0",
