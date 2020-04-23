@@ -3,6 +3,9 @@ import React, {Component} from 'react';
 import AlbumList from '../User/components/AlbumList'
 
 
+import PostList from '../User/components/PostList'
+
+
 export default class Home extends Component {
   handleSubmit = (e) => {
     e.preventDefault();
@@ -14,7 +17,8 @@ export default class Home extends Component {
       <div className="container">
         <div className="row">
           <div className="col-sm-9">
-            <AlbumList />
+            <AlbumList/>
+            <PostList />
           </div>
         </div>
       </div>

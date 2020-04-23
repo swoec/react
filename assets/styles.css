@@ -22,7 +22,28 @@ section {
 }
 
 .border-bottom {
-	border-bottom: 1px solid #eee;
+	border-bottom: 0px solid #eee;
+}
+.post-bottom {
+	width:100%;
+}
+.post-bottom-div {
+	display: flex;
+	border: 2px solid pink;
+	flex-direction:  column
+}
+
+.post-bottom-div span {
+	width: 80%;
+	font-size: 18px;
+	margin: 30px;
+	text-align: left
+}
+
+.post-bottom-div button {
+	border-radius: 10px;
+	margin-left: 40px;
+	width: 10%
 }
 
 section.home {
