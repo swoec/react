@@ -13,7 +13,7 @@ Requirements:
 To run the app locally:
 
 ```bash
-git clone https://github.com/swoec/react.git
+git clone https://github.com/swoec/react-example.git
 cd react
 npm run setup
 npm run dev
