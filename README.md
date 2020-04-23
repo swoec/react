@@ -1,9 +1,6 @@
 # react-example
 
-React example app that demonstrates using [React] with [webpack], and [babeljs], as well as project structure.<br>
-Test Framework:mocha<br>
-Assert:chai<br>
-Spy:sinon<br>
+React example app that demonstrates using [React] with [webpack], and [babeljs], as well as project structure.
 
 Requirements:
 - git
@@ -13,7 +10,7 @@ Requirements:
 To run the app locally:
 
 ```bash
-git clone https://github.com/swoec/react-example.git
+git clone https://github.com/swoec/react.git
 cd react
 npm run setup
 npm run dev
