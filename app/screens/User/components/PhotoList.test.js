@@ -22,7 +22,7 @@ describe('PhotoList', () => {
         const getPhotoSpy = getGetPhotoSpy(getMockPhotos(totalPhotos));
         const wrapper = mountComponent({getPhotos: getPhotoSpy});
         setTimeout(() => {
-            expect(wrapper.find('a')).to.have.length(totalPhotos);
+            expect(wrapper.find('img')).to.have.length(totalPhotos);
             done();
         });
     });

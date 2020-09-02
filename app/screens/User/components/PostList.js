@@ -22,9 +22,9 @@ export default class PostList extends Component {
     render() {
         const {posts} = this.state
         return (
-            <ul className="list-unstyled">
-                {renderPosts(posts)}
-            </ul>
+          <ul className="list-unstyled">
+            {renderPosts(posts)}
+          </ul>
         );
     }
 }
@@ -35,5 +35,5 @@ PostList.propTypes = {
 PostList.defaultProps = {getPosts}
 
 function renderPosts(posts) {
-    return posts.map(post => <PostListItem key={post.id} post={post}/>);
+    return posts.map(post => <PostListItem key={post.id} post={post} />);
 }

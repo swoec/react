@@ -22,7 +22,7 @@ describe('PostList', () => {
         const getReposSpy = getGetPostSpy(getMockPosts(totalRepos));
         const wrapper = mountComponent({getPosts: getReposSpy});
         setTimeout(() => {
-            expect(wrapper.find('li')).to.have.length(totalRepos);
+            expect(wrapper.find('h3')).to.have.length(totalRepos);
             done();
         });
     });

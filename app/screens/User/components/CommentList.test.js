@@ -22,7 +22,7 @@ describe('CommentList', () => {
         const getCommentSpy = getGetCommentSpy(getMockComments(totalComments));
         const wrapper = mountComponent({getComments: getCommentSpy});
         setTimeout(() => {
-            expect(wrapper.find('a')).to.have.length(totalComments);
+            expect(wrapper.find('div')).to.have.length(totalComments);
             done();
         });
     });

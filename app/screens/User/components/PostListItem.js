@@ -19,22 +19,22 @@ export default class PostListItem extends Component {
     render() {
         const {post} = this.props
         return (
-            <li>
-                <div>
-                    <div className="post-bottom-div">
-                        <ul>
-                            <li>
-                                <h3>{post.title}</h3>
-                            </li>
-                        </ul>
+          <li>
+            <div>
+              <div className="post-bottom-div">
+                <ul>
+                  <li>
+                    <h3>{post.title}</h3>
+                  </li>
+                </ul>
 
-                        <span>{post.body}</span>
-                        <button onClick={this.toggleCommentlist}>comments</button>
-                    </div>
+                <span>{post.body}</span>
+                <button onClick={this.toggleCommentlist}>comments</button>
+              </div>
 
-                    {this.state.display && <CommentList postId={post.id}/>}
-                </div>
-            </li>
+              {this.state.display && <CommentList postId={post.id} />}
+            </div>
+          </li>
         );
     }
 }

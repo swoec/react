@@ -10,14 +10,14 @@ describe('PostListItem', () => {
     it('should get the items', () => {
 
         const post = getMockPost();
-        const wrapper = render(<PostListItem post={post}/>);
+        const wrapper = render(<PostListItem post={post} />);
         const timeEl = wrapper.find('li');
         expect(timeEl).to.not.equal(null);
     });
 
     it('should click the button', done => {
         const post = getMockPost();
-        const wrapper = mount(<PostListItem post={post}/>);
+        const wrapper = mount(<PostListItem post={post} />);
         const instance = wrapper.instance();
         instance.toggleCommentlist = spy(instance.toggleCommentlist);
         instance.onClick = spy(instance.onClick);
