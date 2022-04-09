@@ -28,7 +28,7 @@
     "babel-plugin-transform-regenerator": "^6.26.0",
     "bootstrap": "^3.3.5",
     "history": "^3.0.0",
-    "moment": "^2.10.6",
+    "moment": "^2.29.2",
     "react": "15.3.0",
     "react-dom": "15.3.0",
     "react-placeholder": "^3.0.2",
